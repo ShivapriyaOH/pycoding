@@ -1,6 +1,8 @@
 def encrypt(word):
 	"""This function takes a string as input 
-	and gives the encrypted string as output based on Caesar Cypher"""
+	and gives the encrypted string as output based on Caesar Cypher
+	Encrypt = alphabet + 3
+	Decrypt = alphabet - 3 """
 	
 	print('Encrypted message is ')
 	for bit in word:
