@@ -1,0 +1,25 @@
+Python 3.5.1 (default, Dec 2015, 13:05:11)
+[GCC 4.8.2] on linux
+>>> => None>>> encrypt('abc'
+Traceback (most recent call last):
+  File "python", line 1
+    encrypt('abc'
+                ^
+SyntaxError: unexpected EOF while parsing
+>>> encrypt('abc')
+Encrypted message is 
+d
+e
+f
+=> None>>> encrypt('AZaz')
+Encrypted message is 
+D
+C
+d
+c
+=> None>>> encrypt('AZ1az')
+Encrypted message is 
+D
+C
+Invalid Input. Needs to be a-z or A-Z.
+=> None
